@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.FragmentA">
+
+    <TextView
+            android:id="@+id/tvActivityLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="18sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvActivityLabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Fragment A"
+            android:textSize="18sp" />
+
+    <EditText
+            android:id="@+id/edtMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:text="Hello World"
+            android:textAlignment="center" />
+
+    <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtMessage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Send" />
+
+    <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSend"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Start" />
+
+</RelativeLayout>

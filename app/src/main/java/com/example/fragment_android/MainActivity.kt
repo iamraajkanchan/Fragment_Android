@@ -1,13 +1,10 @@
 package com.example.fragment_android
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import com.example.fragment_android.databinding.ActivityMainBinding
 import com.example.fragment_android.fragments.FragmentA
 import com.example.fragment_android.fragments.FragmentB
-import kotlinx.android.synthetic.main.fragment_a.*
 
 class MainActivity : AppCompatActivity() , Communicator
 {
